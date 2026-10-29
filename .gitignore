@@ -1,0 +1,13 @@
+# KiCad local/user files
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.lck
+\#auto_saved_files#
+_autosave-*
+.history/
+*.bak
+# Autorouter
+*.ses
+*.dsn
+*.freerouting.log
