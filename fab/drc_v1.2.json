@@ -1,5 +1,68 @@
 {
-  "violations": [],
-  "unconnected_items": [],
-  "schematic_parity": []
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-30T15:23:02",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [
+        {
+            "description": "Field 'LCSC' differs (PCB: 'C22764', Schematic: 'C22843')",
+            "items": [
+                {
+                    "description": "Footprint R13",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 107.0
+                    },
+                    "uuid": "27aa8150-48e4-410f-81eb-98afb38cc1ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'LCSC' differs (PCB: 'C22764', Schematic: 'C22843')",
+            "items": [
+                {
+                    "description": "Footprint R14",
+                    "pos": {
+                        "x": 120.4,
+                        "y": 116.6
+                    },
+                    "uuid": "a25d35d1-6583-46ca-afb2-4645aa98c5ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        }
+    ],
+    "source": "hyperion.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
 }

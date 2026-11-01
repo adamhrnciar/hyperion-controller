@@ -1,0 +1,35 @@
+Item,Designator,Qty,Manufacturer,Manufacturer Part Number,Description,Package,Type,LCSC Part #,Notes
+1,"C1,C2,C31,C33",4,Samsung Electro-Mechanics,CL31B106KBHNNNE,10uF 50V X7R,1206,SMD,C89632,
+2,C4,1,Chinocera,HGC1206R7475K500NSPJ,4.7uF 50V X7R,1206,SMD,C7472974,Substitute only with equal value/voltage/dielectric/tolerance; contact us first.
+3,"C5,C6,C8,C30,C32",5,FH (Guangdong Fenghua Advanced Tech),0603B104M500NT,100nF 50V,0603,SMD,C286510,Substitute only with equal value/voltage/dielectric/tolerance; contact us first.
+4,C7,1,Samsung Electro-Mechanics,CL21A226MPQNNNE,22uF 10V,0805,SMD,C29277,
+5,C9,1,Samsung Electro-Mechanics,CL10A106KP8NNNC,10uF 10V,0603,SMD,C19702,
+6,"C10,C11",2,CCTC,TCC0603X5R105K160CT,1uF 16V,0603,SMD,C696901,
+7,C12,1,Samsung Electro-Mechanics,CL10A475KO8NNNC,4.7uF 16V,0603,SMD,C19666,
+8,"C13,C14,C15,C16,C17,C18,C19,C20,C21,C25,C26,C27,C34,C35",14,Samsung Electro-Mechanics,CL05B104KO5NNNC,100nF,0402,SMD,C1525,
+9,"C22,C23,C24",3,Samsung Electro-Mechanics,CL05A475MP5NRNC,4.7uF 10V,0402,SMD,C23733,
+10,"C28,C29",2,FH (Guangdong Fenghua Advanced Tech),0402CG150J500NT,15pF,0402,SMD,C1548,Substitute only with equal value/voltage/dielectric/tolerance; contact us first.
+11,D1,1,JSCJ (Jiangsu Changjing Electronics Technology),SMF18A,SMF18A,SOD-123F (SOD-123FL),SMD,C1509591,POLARITY: unidirectional TVS. Cathode (band) = pad 1 = VBAT.
+12,D2,1,MDD (Microdiode Semiconductor),BZT52C12,BZT52C12,SOD-123,SMD,C173429,POLARITY: Zener. Cathode (band) = pad 1.
+13,D3,1,MDD (Microdiode Semiconductor),B5819W,B5819W,SOD-123,SMD,C64885,POLARITY: Schottky. Cathode (band) = pad 1.
+14,D4,1,Hubei KENTO Elec,KT-0603R,Red,0603,SMD,C2286,POLARITY: LED. Cathode = pad 1.
+15,D5,1,TUOZHAN,F.0603.00025/P2-0603G1TS2-06T-002,Green,0603,SMD,C7496818,POLARITY: LED. Cathode = pad 1. Substitute only with equal value/voltage/dielectric/tolerance; contact us first.
+16,L1,1,Abracon LLC,AOTA-B201610S3R3-101-T,3.3uH AOTA-B201610S3R3-101-T,2016 (2.0x1.6 mm),SMD,C42411119,"POLARITY: inductor marking dot must face pad 1 (VREG_LX side, toward U1; silkscreen dot next to pad 1). Required by RP2350 datasheet."
+17,L2,1,cjiang (Changjiang Microelectronics Tech),FNR4030S100MT,10uH FNR4030S100MT,4.0x4.0 mm,SMD,C167879,
+18,Q1,1,TECH PUBLIC,AON7403,AON7403,PDFN-8 3.3x3.3 (PowerPAK 1212-8),SMD,C5310961,Pin 1 orientation per silkscreen.
+19,R1,1,UNI-ROYAL (Uniroyal Elec),0603WAF4702T5E,47k,0603,SMD,C25819,
+20,R2,1,UNI-ROYAL (Uniroyal Elec),0603WAF1153T5E,115k 1%,0603,SMD,C22783,
+21,R3,1,UNI-ROYAL (Uniroyal Elec),0603WAF2202T5E,22k 1%,0603,SMD,C31850,
+22,R4,1,UNI-ROYAL (Uniroyal Elec),0603WAF1003T5E,100k,0603,SMD,C25803,
+23,R5,1,UNI-ROYAL (Uniroyal Elec),0603WAF2202T5E,22k,0603,SMD,C31850,
+24,R6,1,UNI-ROYAL (Uniroyal Elec),0603WAF1001T5E,1k,0603,SMD,C21190,
+25,R7,1,UNI-ROYAL (Uniroyal Elec),0402WGF330JTCE,33R,0402,SMD,C25105,
+26,"R8,R11,R12",3,UNI-ROYAL (Uniroyal Elec),0402WGF1001TCE,1k,0402,SMD,C11702,
+27,"R9,R10",2,FH (Guangdong Fenghua Advanced Tech),RC-02K27R0FT,27R,0402,SMD,C140174,Substitute only with equal value/voltage/dielectric/tolerance; contact us first.
+28,"R13,R14",2,UNI-ROYAL (Uniroyal Elec),0603WAF1501T5E,1.5k 1%,0603,SMD,C22843,
+29,U1,1,Raspberry Pi,RP2354A,RP2354A,"QFN-60 7x7 mm, 0.4 mm pitch",SMD,C41378174,Pin 1 orientation per silkscreen. Zero stock at LCSC: please confirm sourcing or allow consignment.
+30,"U2,U3",2,Texas Instruments,DRV8231ADSGR,DRV8231ADSGR,WSON-8 2x2 mm (DSG),SMD,C5139865,Pin 1 orientation per silkscreen. Exposed pad.
+31,U4,1,Texas Instruments,LMR51610YDBVR,LMR51610YDBVR,SOT-23-6,SMD,C22427220,Pin 1 orientation per silkscreen.
+32,U5,1,MICRONE (Nanjing Micro One Elec),ME6211C33M5G-N,ME6211C33M5G,SOT-23-5,SMD,C82942,Pin 1 orientation per silkscreen.
+33,U6,1,STMicroelectronics,LSM6DSV32XTR,LSM6DSV32XTR,LGA-14 2.5x3 mm,SMD,C22461202,"Pin 1 orientation per silkscreen. LGA, moisture sensitive."
+34,Y1,1,Abracon LLC,ABM8-272-T3,12MHz ABM8-272-T3,SMD 3225-4P,SMD,C20625731,Pin 1 orientation per silkscreen.
