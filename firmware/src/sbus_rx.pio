@@ -1,0 +1,47 @@
+; SPDX-License-Identifier: GPL-3.0-or-later
+; SBUS receiver: UART 8E2 at 100000 baud, 8 PIO cycles per bit.
+;
+; SBUS is an inverted UART. The pad input inverter (GPIO INOVER) undoes the
+; inversion before PIO sees the pin, so this is a plain UART receiver
+; (based on the pico-examples uart_rx program) that shifts in 9 bits:
+; 8 data bits LSB first plus the even parity bit. Software checks parity.
+; Bytes with a bad first stop bit are dropped.
+;
+; RX FIFO word: bits [31:23] = parity:data[7:0]  (shift right, 9 bits)
+
+.program sbus_rx
+
+start:
+    wait 0 pin 0        ; wait for the start bit
+    set x, 8    [10]    ; 9 bits; delay to the middle of data bit 0 (12 cycles in total)
+bitloop:
+    in pins, 1          ; sample data / parity bit
+    jmp x-- bitloop [6] ; 8 cycles per bit
+    jmp pin good_stop   ; first stop bit must be high
+    wait 1 pin 0        ; framing error or break: wait for idle, drop the byte
+    jmp start
+good_stop:
+    push
+
+% c-sdk {
+#include "hardware/clocks.h"
+#include "hardware/gpio.h"
+
+static inline void sbus_rx_program_init(PIO pio, uint sm, uint offset, uint pin, uint baud) {
+    pio_sm_set_consecutive_pindirs(pio, sm, pin, 1, false);
+    pio_gpio_init(pio, pin);
+    // gpio_set_function (inside pio_gpio_init) clears the override bits, so invert afterwards.
+    gpio_set_inover(pin, GPIO_OVERRIDE_INVERT);
+    // Idle SBUS line is low; with no receiver the pull-down keeps PIO seeing "idle".
+    gpio_pull_down(pin);
+
+    pio_sm_config c = sbus_rx_program_get_default_config(offset);
+    sm_config_set_in_pins(&c, pin);
+    sm_config_set_jmp_pin(&c, pin);
+    sm_config_set_in_shift(&c, true, false, 32);
+    sm_config_set_fifo_join(&c, PIO_FIFO_JOIN_RX);
+    sm_config_set_clkdiv(&c, (float)clock_get_hz(clk_sys) / (float)(8 * baud));
+    pio_sm_init(pio, sm, offset, &c);
+    pio_sm_set_enabled(pio, sm, true);
+}
+%}

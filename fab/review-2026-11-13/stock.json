@@ -1,0 +1,742 @@
+{
+  "origin": "Recovered pcbparts tool results, 2026-11-13; catalogue stock is not PCBWay allocation.",
+  "parts": [
+    {
+      "lcsc": "C11702",
+      "model": "0402WGF1001TCE",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "0402",
+      "stock": 31665363,
+      "min_order": 1,
+      "specs": {
+        "Resistance": "1k\u03a9",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Power(Watts)": "62.5mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "50V",
+        "Tolerance": "\u00b11%",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103"
+      },
+      "observed_at": "2026-11-13T09:12:03.752788+00:00",
+      "url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0402wgf1001tce_C11702.html",
+      "designators": "R8,R11,R12",
+      "quantity_for_four": 12
+    },
+    {
+      "lcsc": "C140174",
+      "model": "RC-02K27R0FT",
+      "manufacturer": "FH (Guangdong Fenghua Advanced Tech)",
+      "package": "0402",
+      "stock": 68065,
+      "min_order": 1,
+      "specs": {
+        "Resistance": "27\u03a9",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Power(Watts)": "62.5mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "50V",
+        "Tolerance": "\u00b11%",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103"
+      },
+      "observed_at": "2026-11-13T09:30:44.013980+00:00",
+      "url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_fh-guangdong-fenghua-advanced-tech-rc-02k27r0ft_C140174.html",
+      "designators": "R9,R10",
+      "quantity_for_four": 8
+    },
+    {
+      "lcsc": "C1509591",
+      "model": "SMF18A",
+      "manufacturer": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+      "package": "SOD-123FL",
+      "stock": 557,
+      "min_order": 1,
+      "specs": {
+        "Operating Temperature": "-55\u2103~+150\u2103",
+        "Type": "TVS",
+        "Peak Pulse Power Dissipation (Ppp)": "200W@10/1000us",
+        "Number of Channels": "Single-channel",
+        "level of protection": "IEC 61000-4-2",
+        "Clamping Voltage": "29.2V",
+        "Polarity": "Unidirectional",
+        "Peak Pulse Current (Ipp)": "6.8A@10/1000us",
+        "Voltage - Breakdown": "22.1V",
+        "Reverse Stand-Off Voltage (Vrwm)": "18V",
+        "Reverse Leakage Current (Ir)": "1uA"
+      },
+      "observed_at": "2026-11-13T09:30:21.165786+00:00",
+      "url": "https://www.lcsc.com/product-detail/esd-and-surge-protection-tvs-esd_jiangsu-changjing-electronics-technology-co-ltd-smf18a_C1509591.html",
+      "designators": "D1",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C1525",
+      "model": "CL05B104KO5NNNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "package": "0402",
+      "stock": 32081745,
+      "specs": {
+        "Voltage Rating": "16V",
+        "Tolerance": "\u00b110%",
+        "Capacitance": "100nF",
+        "Temperature Coefficient": "X7R"
+      },
+      "observed_at": "2026-11-13T09:30:49.357502+00:00",
+      "designators": "C13,C14,C15,C16,C17,C18,C19,C20,C21,C25,C26,C27,C34,C35",
+      "quantity_for_four": 56
+    },
+    {
+      "lcsc": "C1548",
+      "model": "0402CG150J500NT",
+      "manufacturer": "FH (Guangdong Fenghua Advanced Tech)",
+      "package": "0402",
+      "stock": 989687,
+      "min_order": 1,
+      "specs": {
+        "Voltage Rating": "50V",
+        "Tolerance": "\u00b15%",
+        "Capacitance": "15pF",
+        "Temperature Coefficient": "C0G"
+      },
+      "observed_at": "2026-11-13T09:30:49.804691+00:00",
+      "url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_fh-guangdong-fenghua-advanced-tech-0402cg150j500nt_C1548.html",
+      "designators": "C28,C29",
+      "quantity_for_four": 8
+    },
+    {
+      "lcsc": "C167879",
+      "model": "FNR4030S100MT",
+      "manufacturer": "cjiang (Changjiang Microelectronics Tech)",
+      "package": "SMD,4x4mm",
+      "stock": 193906,
+      "min_order": 1,
+      "specs": {
+        "Current - Saturation(Isat)": "2.4A",
+        "Inductance": "10uH",
+        "Type": "Magnetic Shielded Inductor",
+        "Tolerance": "\u00b120%",
+        "Current Rating": "1.6A",
+        "Application Grade": "Consumer grade",
+        "DC Resistance(DCR)": "130m\u03a9"
+      },
+      "observed_at": "2026-11-13T09:30:43.757385+00:00",
+      "url": "https://www.lcsc.com/product-detail/power-inductors_cjiang-changjiang-microelectronics-tech-fnr4030s100mt_C167879.html",
+      "designators": "L2",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C173429",
+      "model": "BZT52C12",
+      "manufacturer": "MDD(Microdiode Semiconductor)",
+      "package": "SOD-123",
+      "stock": 251865,
+      "min_order": 1,
+      "specs": {
+        "Operating Junction Temperature Range": "-",
+        "Diode Configuration": "1 Independent",
+        "Impedance(Zzk)": "-",
+        "Tolerance": "\u00b15%",
+        "Impedance(Zzt)": "35\u03a9",
+        "Zener Voltage(Range)": "11.4V~12.6V",
+        "Zener Voltage(Nom)": "12V",
+        "Pd - Power Dissipation": "500mW",
+        "Reverse Leakage Current (Ir)": "100nA@9V"
+      },
+      "observed_at": "2026-11-13T09:30:43.294943+00:00",
+      "url": "https://www.lcsc.com/product-detail/zener-diodes_mdd-microdiode-semiconductor-bzt52c12_C173429.html",
+      "designators": "D2",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C19666",
+      "model": "CL10A475KO8NNNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "package": "0603",
+      "stock": 3617216,
+      "min_order": 1,
+      "specs": {
+        "Voltage Rating": "16V",
+        "Tolerance": "\u00b110%",
+        "Capacitance": "4.7uF",
+        "Temperature Coefficient": "X5R"
+      },
+      "observed_at": "2026-11-13T09:22:59.328981+00:00",
+      "url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl10a475ko8nnnc_C19666.html",
+      "designators": "C12",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C19702",
+      "model": "CL10A106KP8NNNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "package": "0603",
+      "stock": 11766335,
+      "min_order": 1,
+      "specs": {
+        "Voltage Rating": "10V",
+        "Tolerance": "\u00b110%",
+        "Capacitance": "10uF",
+        "Temperature Coefficient": "X5R"
+      },
+      "observed_at": "2026-11-13T09:30:55.172997+00:00",
+      "url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl10a106kp8nnnc_C19702.html",
+      "designators": "C9",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C20625731",
+      "model": "ABM8-272-T3",
+      "manufacturer": "Abracon LLC",
+      "package": "SMD3225-4P",
+      "stock": 1,
+      "min_order": 23,
+      "specs": {
+        "Load Capacitance": "10pF",
+        "Operating Temperature": "-40\u2103~+85\u2103",
+        "Type": "SMD crystal oscillator",
+        "Normal temperature Frequency Tolerance": "\u00b130ppm",
+        "Equivalent Series Resistance(ESR)": "50\u03a9",
+        "Frequency Stability": "\u00b130ppm",
+        "Frequency": "12MHz"
+      },
+      "observed_at": "2026-11-13T09:30:21.443940+00:00",
+      "url": "https://www.lcsc.com/product-detail/crystals_abracon-llc-abm8-272-t3_C20625731.html",
+      "designators": "Y1",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C21190",
+      "model": "0603WAF1001T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "0603",
+      "stock": 27886455,
+      "min_order": 1,
+      "specs": {
+        "Resistance": "1k\u03a9",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Power(Watts)": "100mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "75V",
+        "Tolerance": "\u00b11%",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103"
+      },
+      "observed_at": "2026-11-13T09:30:56.541980+00:00",
+      "url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf1001t5e_C21190.html",
+      "designators": "R6",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C22427220",
+      "model": "LMR51610YDBVR",
+      "manufacturer": "Texas Instruments",
+      "package": "SOT-23-6",
+      "stock": 1601,
+      "min_order": 1,
+      "specs": {
+        "Operating Temperature": "-40\u2103~+150\u2103@(TJ)",
+        "Function": "Step-down type",
+        "Synchronous Rectifier": "Yes",
+        "Frequency - Switching": "1.1MHz",
+        "Voltage - Supply": "4V~65V",
+        "Output Type": "Adjustable",
+        "Output Current": "1A",
+        "Quiescent Current": "26.5uA",
+        "Features": "Overcurrent Protection\u3001Light load efficient mode\u3001Cycle-by-cycle current limiting\u3001Hiccup current limiting",
+        "Switch tube (built-in/external)": "Built-in",
+        "Topology": "Buck",
+        "Output Voltage": "800mV~28V",
+        "Number of Outputs": "1"
+      },
+      "observed_at": "2026-11-13T09:30:15.285825+00:00",
+      "url": "https://www.lcsc.com/product-detail/C22427220.html",
+      "designators": "U4",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C22461202",
+      "model": "LSM6DSV32XTR",
+      "manufacturer": "STMicroelectronics",
+      "package": "LGA-14(2.5x3)",
+      "stock": 89,
+      "min_order": 3,
+      "specs": {
+        "Operating Temperature": "-40\u2103~+85\u2103",
+        "Gyroscope Measurement Range (MAX)": "\u00b14000dps",
+        "Output Bits": "-",
+        "Standby Current": "3uA",
+        "Sensor Type": "IMU (accelerometer + gyroscope)",
+        "Voltage - Supply": "1.71V~3.6V",
+        "Acceleration Measurement Range (MAX)": "\u00b132g",
+        "Cache Size": "4.5KB",
+        "Features": "Motion event detection\u3001Synchronization and timestamp",
+        "Gyroscope Sensing Axis": "X,Y,Z",
+        "Accelerometer Sensing Axis": "X,Y,Z",
+        "Interface": "SPI\u3001I2C\u3001I3C"
+      },
+      "observed_at": "2026-11-13T09:30:14.316048+00:00",
+      "url": "https://www.lcsc.com/product-detail/C22461202.html",
+      "designators": "U6",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C22783",
+      "model": "0603WAF1153T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "0603",
+      "stock": 45688,
+      "min_order": 1,
+      "specs": {
+        "Resistance": "115k\u03a9",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Power(Watts)": "100mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "75V",
+        "Tolerance": "\u00b11%",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103"
+      },
+      "observed_at": "2026-11-13T09:30:50.816985+00:00",
+      "url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf1153t5e_C22783.html",
+      "designators": "R2",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C22843",
+      "model": "0603WAF1501T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "0603",
+      "stock": 2966547,
+      "min_order": 1,
+      "specs": {
+        "Resistance": "1.5k\u03a9",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Power(Watts)": "100mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "75V",
+        "Tolerance": "\u00b11%",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103"
+      },
+      "observed_at": "2026-11-13T09:30:15.412898+00:00",
+      "url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf1501t5e_C22843.html",
+      "designators": "R13,R14",
+      "quantity_for_four": 8
+    },
+    {
+      "lcsc": "C2286",
+      "model": "KT-0603R",
+      "manufacturer": "Hubei KENTO Elec",
+      "package": "0603",
+      "stock": 5906416,
+      "min_order": 1,
+      "specs": {
+        "Mounting Style": "-",
+        "Wavelength - Dominant": "615nm~630nm",
+        "Operating Temperature": "-40\u2103~+85\u2103",
+        "Color Temperature": "-",
+        "Test Current": "20mA",
+        "Viewing Angle": "120\u00b0",
+        "Lamp Holder Type": "1.6mm x 0.8mm square LED",
+        "Luminous Intensity": "300mcd",
+        "Power(Watts)": "40mW",
+        "Diode Configuration": "Discrete Diode",
+        "Illumination Color": "Red",
+        "Lens Color": "Water Clear",
+        "Peak Wavelength": "645nm",
+        "Voltage - Forward(Vf)": "1.8V~2.4V"
+      },
+      "observed_at": "2026-11-13T09:14:18.028637+00:00",
+      "url": "https://www.lcsc.com/product-detail/led-indication-discrete_hubei-kento-elec-kt-0603r_C2286.html",
+      "designators": "D4",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C23733",
+      "model": "CL05A475MP5NRNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "package": "0402",
+      "stock": 654166,
+      "min_order": 1,
+      "specs": {
+        "Voltage Rating": "10V",
+        "Tolerance": "\u00b120%",
+        "Capacitance": "4.7uF",
+        "Temperature Coefficient": "X5R"
+      },
+      "observed_at": "2026-11-13T09:29:49.026352+00:00",
+      "url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl05a475mp5nrnc_C23733.html",
+      "designators": "C22,C23,C24",
+      "quantity_for_four": 12
+    },
+    {
+      "lcsc": "C25105",
+      "model": "0402WGF330JTCE",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "0402",
+      "stock": 3504695,
+      "min_order": 1,
+      "specs": {
+        "Resistance": "33\u03a9",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Power(Watts)": "62.5mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "50V",
+        "Tolerance": "\u00b11%",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103"
+      },
+      "observed_at": "2026-11-13T09:13:43.346657+00:00",
+      "url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0402wgf330jtce_C25105.html",
+      "designators": "R7",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C25803",
+      "model": "0603WAF1003T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "0603",
+      "stock": 14949086,
+      "min_order": 1,
+      "specs": {
+        "Resistance": "100k\u03a9",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Power(Watts)": "100mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "75V",
+        "Tolerance": "\u00b11%",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103"
+      },
+      "observed_at": "2026-11-13T09:30:56.157703+00:00",
+      "url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf1003t5e_C25803.html",
+      "designators": "R4",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C25819",
+      "model": "0603WAF4702T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "0603",
+      "stock": 2776382,
+      "min_order": 1,
+      "specs": {
+        "Resistance": "47k\u03a9",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Power(Watts)": "100mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "75V",
+        "Tolerance": "\u00b11%",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103"
+      },
+      "observed_at": "2026-11-13T09:30:55.552173+00:00",
+      "url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf4702t5e_C25819.html",
+      "designators": "R1",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C286510",
+      "model": "0603B104M500NT",
+      "manufacturer": "FH (Guangdong Fenghua Advanced Tech)",
+      "package": "0603",
+      "stock": 2101792,
+      "min_order": 1,
+      "specs": {
+        "Voltage Rating": "50V",
+        "Tolerance": "\u00b120%",
+        "Capacitance": "100nF",
+        "Temperature Coefficient": "X7R"
+      },
+      "observed_at": "2026-11-13T09:30:42.344180+00:00",
+      "url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_fh-guangdong-fenghua-advanced-tech-0603b104m500nt_C286510.html",
+      "designators": "C5,C6,C8,C30,C32",
+      "quantity_for_four": 20
+    },
+    {
+      "lcsc": "C29277",
+      "model": "CL21A226MPQNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "package": "0805",
+      "stock": 123480,
+      "min_order": 1,
+      "specs": {
+        "Voltage Rating": "10V",
+        "Tolerance": "\u00b120%",
+        "Capacitance": "22uF",
+        "Temperature Coefficient": "X5R"
+      },
+      "observed_at": "2026-11-13T09:30:42.506626+00:00",
+      "url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl21a226mpqnnne_C29277.html",
+      "designators": "C7",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C31850",
+      "model": "0603WAF2202T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "package": "0603",
+      "stock": 2443642,
+      "min_order": 1,
+      "specs": {
+        "Resistance": "22k\u03a9",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Power(Watts)": "100mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "75V",
+        "Tolerance": "\u00b11%",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103"
+      },
+      "observed_at": "2026-11-13T09:30:55.732738+00:00",
+      "url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf2202t5e_C31850.html",
+      "designators": "R3,R5",
+      "quantity_for_four": 8
+    },
+    {
+      "lcsc": "C41378174",
+      "model": "RP2354A",
+      "manufacturer": "Raspberry Pi",
+      "package": "QFN-60(7x7)",
+      "stock": 1299,
+      "min_order": 8,
+      "specs": {
+        "CPU Maximum Speed": "150MHz",
+        "Core Size": "32 Bit",
+        "CPU Core": "ARM Cortex-M33",
+        "Features": "Power-on reset (POR)\u3001Undervoltage detection (BOR/LVD/LVR/LVI)\u3001Watchdog reset\u3001Built-in general-purpose timer\u3001Integrated LDO\u3001Calendar function\u3001True random number generator (TRNG)\u3001Hardware ECC check\u3001Independent watchdog (IWDG)",
+        "Oscillator Type": "Built-in+External"
+      },
+      "observed_at": "2026-11-13T09:30:14.010687+00:00",
+      "url": "https://www.lcsc.com/product-detail/C41378174.html",
+      "designators": "U1",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C42411119",
+      "model": "AOTA-B201610S3R3-101-T",
+      "manufacturer": "Abracon LLC",
+      "package": "0806",
+      "stock": 283,
+      "min_order": 26,
+      "specs": {
+        "Current - Saturation(Isat)": "2.4A",
+        "Inductance": "3.3uH",
+        "Type": "Molded inductor",
+        "Current Rating": "2.1A",
+        "Application Grade": "Consumer grade",
+        "DC Resistance(DCR)": "115m\u03a9"
+      },
+      "observed_at": "2026-11-13T09:30:14.729985+00:00",
+      "url": "https://www.lcsc.com/product-detail/power-inductors_abracon-llc-aota-b201610s3r3-101-t_C42411119.html",
+      "designators": "L1",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C5139865",
+      "model": "DRV8231ADSGR",
+      "manufacturer": "Texas Instruments",
+      "package": "WSON-8(2x2)",
+      "stock": 11935,
+      "min_order": 1,
+      "specs": {
+        "Operating Temperature": "-40\u2103~+150\u2103",
+        "Number of H-bridges": "1",
+        "Technology": "Yes",
+        "Voltage - Supply": "4.5V~33V",
+        "Output Current": "-",
+        "Features": "Interleaved conduction protection\u3001Current sensing/regulation function\u3001Active braking function\u3001Motor stall protection",
+        "Quiescent Current(Iq)": "1uA",
+        "RDS(on)": "600m\u03a9",
+        "Peak Current": "3.7A",
+        "Interface": "-"
+      },
+      "observed_at": "2026-11-13T09:30:13.924329+00:00",
+      "url": "https://www.lcsc.com/product-detail/brushed-dc-motor-drivers_texas-instruments-drv8231adsgr_C5139865.html",
+      "designators": "U2,U3",
+      "quantity_for_four": 8
+    },
+    {
+      "lcsc": "C5310961",
+      "model": "AON7403",
+      "manufacturer": "TECH PUBLIC",
+      "package": "PDFN-8",
+      "stock": 6055,
+      "min_order": 1,
+      "specs": {
+        "Operating Temperature": "-55\u2103~+150\u2103",
+        "Vgs": "\u00b120V",
+        "Configuration": "-",
+        "Gate Charge(Qg)": "30nC@15V",
+        "Reverse Transfer Capacitance (Crss@Vds)": "421pF",
+        "Current - Continuous Drain(Id)": "50A",
+        "Drain to Source Voltage": "30V",
+        "Output Capacitance(Coss)": "508pF",
+        "RDS(on)": "8m\u03a9@10V",
+        "Input Capacitance(Ciss)": "3.448nF",
+        "Type": "P-Channel",
+        "Gate Threshold Voltage (Vgs(th))": "1.2V",
+        "Number": "1 P-Channel",
+        "Pd - Power Dissipation": "38W"
+      },
+      "observed_at": "2026-11-13T09:30:22.548553+00:00",
+      "url": "https://www.lcsc.com/product-detail/mosfets_tech-public-aon7403_C5310961.html",
+      "designators": "Q1",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C64885",
+      "model": "B5819W",
+      "manufacturer": "MDD(Microdiode Semiconductor)",
+      "package": "SOD-123",
+      "stock": 532786,
+      "min_order": 1,
+      "specs": {
+        "Voltage - Forward(Vf@If)": "600mV@1A",
+        "Power Dissipation": "500mW",
+        "Non-Repetitive Peak Forward Surge Current": "25A",
+        "Voltage - DC Reverse(Vr)": "40V",
+        "Operating Junction Temperature Range": "-55\u2103~+125\u2103",
+        "Diode Configuration": "Standalone",
+        "Current - Rectified": "1.5A",
+        "Reverse Leakage Current (Ir)": "1mA@40V"
+      },
+      "observed_at": "2026-11-13T09:30:44.593648+00:00",
+      "url": "https://www.lcsc.com/product-detail/schottky-diodes_mdd-microdiode-semiconductor-b5819w_C64885.html",
+      "designators": "D3",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C696901",
+      "model": "TCC0603X5R105K160CT",
+      "manufacturer": "CCTC",
+      "package": "0603",
+      "stock": 920037,
+      "min_order": 1,
+      "specs": {
+        "Voltage Rating": "16V",
+        "Tolerance": "\u00b110%",
+        "Capacitance": "1uF",
+        "Temperature Coefficient": "X5R"
+      },
+      "observed_at": "2026-11-13T09:30:42.722076+00:00",
+      "url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_cctc-tcc0603x5r105k160ct_C696901.html",
+      "designators": "C10,C11",
+      "quantity_for_four": 8
+    },
+    {
+      "lcsc": "C7472974",
+      "model": "HGC1206R7475K500NSPJ",
+      "manufacturer": "Chinocera",
+      "package": "1206",
+      "stock": 96129,
+      "min_order": 1,
+      "specs": {
+        "Voltage Rating": "50V",
+        "Tolerance": "\u00b110%",
+        "Capacitance": "4.7uF",
+        "Temperature Coefficient": "X7R"
+      },
+      "observed_at": "2026-11-13T09:30:22.014383+00:00",
+      "url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_chinocera-hgc1206r7475k500nspj_C7472974.html",
+      "designators": "C4",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C7496818",
+      "model": "F.0603.00025/P2-0603G1TS2-06T-002",
+      "manufacturer": "TUOZHAN",
+      "package": "0603",
+      "stock": 3742249,
+      "min_order": 1,
+      "specs": {
+        "Mounting Style": "-",
+        "Operating Temperature": "-40\u2103~+85\u2103",
+        "Wavelength - Dominant": "520nm~525nm",
+        "Color Temperature": "-",
+        "Test Current": "30mA",
+        "Viewing Angle": "120\u00b0",
+        "Lamp Holder Type": "1.6mm x 0.8mm square LED",
+        "Luminous Intensity": "230mcd",
+        "Power(Watts)": "90mW",
+        "Diode Configuration": "Discrete Diode",
+        "Illumination Color": "Emerald Green",
+        "Lens Color": "-",
+        "Peak Wavelength": "517nm",
+        "Voltage - Forward(Vf)": "2.6V~2.9V"
+      },
+      "observed_at": "2026-11-13T09:30:22.477733+00:00",
+      "url": "https://www.lcsc.com/product-detail/led-indication-discrete_tuozhan-f-0603-00025-p2-0603g1ts2-06t-002_C7496818.html",
+      "designators": "D5",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C82942",
+      "model": "ME6211C33M5G-N",
+      "manufacturer": "MICRONE(Nanjing Micro One Elec)",
+      "package": "SOT-23-5",
+      "stock": 300629,
+      "min_order": 1,
+      "specs": {
+        "Power Supply Rejection Ratio (PSRR)": "70dB@(1kHz)",
+        "Operating Temperature": "-40\u2103~+150\u2103",
+        "standby current": "60uA",
+        "Noise": "50uVrms",
+        "Voltage - Supply": "6V",
+        "Output Type": "Fixed",
+        "Output Current": "500mA",
+        "Output Configuration": "Positive",
+        "Features": "Over Current Protection\u3001Short Circuit Protection\u3001Enable control",
+        "Output Voltage": "3.3V",
+        "Voltage Dropout": "120mV@(100mA)",
+        "Number of Outputs": "1"
+      },
+      "observed_at": "2026-11-13T09:30:21.002174+00:00",
+      "url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6211c33m5g-n_C82942.html",
+      "designators": "U5",
+      "quantity_for_four": 4
+    },
+    {
+      "lcsc": "C89632",
+      "model": "CL31B106KBHNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "package": "1206",
+      "stock": 451041,
+      "min_order": 1,
+      "specs": {
+        "Voltage Rating": "50V",
+        "Tolerance": "\u00b110%",
+        "Capacitance": "10uF",
+        "Temperature Coefficient": "X7R"
+      },
+      "observed_at": "2026-11-13T09:30:42.296124+00:00",
+      "url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl31b106kbhnnne_C89632.html",
+      "designators": "C1,C2,C31,C33",
+      "quantity_for_four": 16
+    }
+  ],
+  "alternate_supplier": [
+    {
+      "source": "mouser",
+      "mfr_part_number": "LSM6DSV32XTR",
+      "stock": 19982,
+      "product_url": "https://www.mouser.ca/en/ProductDetail/STMicroelectronics/LSM6DSV32XTR?qs=HoCaDK9Nz5d%252BGVBpjxkjlg%3D%3D"
+    },
+    {
+      "source": "mouser",
+      "mfr_part_number": "ABM8-272-T3",
+      "stock": 8213,
+      "product_url": "https://www.mouser.ca/en/ProductDetail/ABRACON/ABM8-272-T3?qs=QpmGXVUTftEj6miOiJBMxQ%3D%3D"
+    },
+    {
+      "source": "mouser",
+      "mfr_part_number": "DRV8231ADSGR",
+      "stock": 19375,
+      "product_url": "https://www.mouser.ca/en/ProductDetail/Texas-Instruments/DRV8231ADSGR?qs=Rp5uXu7WBW%252BKZGX8zD3MhQ%3D%3D"
+    },
+    {
+      "source": "mouser",
+      "mfr_part_number": "AOTA-B201610S3R3-101-T",
+      "stock": 13224,
+      "product_url": "https://www.mouser.ca/en/ProductDetail/ABRACON/AOTA-B201610S3R3-101-T?qs=%252BXxaIXUDbq0IZvJW%2F2mv4w%3D%3D"
+    },
+    {
+      "source": "mouser",
+      "mfr_part_number": "AOTA-B201610S3R3101T",
+      "stock": 0,
+      "product_url": "https://www.mouser.ca/en/ProductDetail/ABRACON/AOTA-B201610S3R3101T?qs=dhCoiiGcT1KGkfZb%252BVNu9Q%3D%3D"
+    }
+  ]
+}

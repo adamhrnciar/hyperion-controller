@@ -1,0 +1,60 @@
+{
+  "normalization": "Remove only CreationDate, GenerationSoftware, G04 Created and ; DRILL file metadata lines; preserve geometry and attributes.",
+  "files": [
+    {
+      "file": "hyperion-B_Cu.gbl",
+      "normalized_sha256": "306400e1ead259ec509a463937108e022660e488d01e649aa158765009ee05ff",
+      "matches_recovered_konnect_export": true
+    },
+    {
+      "file": "hyperion-B_Mask.gbs",
+      "normalized_sha256": "89a53ab04662dde743f097c72d3f76bcd85a0a06394e2991b2efa4e535dbf2e3",
+      "matches_recovered_konnect_export": true
+    },
+    {
+      "file": "hyperion-B_Paste.gbp",
+      "normalized_sha256": "8670377fda86a1871b6f0d6c72a31b5a511da75f56e09afc641a411b235859d3",
+      "matches_recovered_konnect_export": true
+    },
+    {
+      "file": "hyperion-B_Silkscreen.gbo",
+      "normalized_sha256": "6207a101142cd9a10018adcab3e2672371b0f793eb7f6a0bc7b1e79712c1e25a",
+      "matches_recovered_konnect_export": true
+    },
+    {
+      "file": "hyperion-Edge_Cuts.gm1",
+      "normalized_sha256": "a3bbf1b55ffdf9209171699ecf58470cbf43c609d9a12a76bd7195e6958de4de",
+      "matches_recovered_konnect_export": true
+    },
+    {
+      "file": "hyperion-F_Cu.gtl",
+      "normalized_sha256": "2be1c923ade3a4766282ecdbe0f2afe3670bb8de8239f1165087c246436edeff",
+      "matches_recovered_konnect_export": true
+    },
+    {
+      "file": "hyperion-F_Mask.gts",
+      "normalized_sha256": "90e2f67856248c604455a7dc39c1edff26035a26ebf8ad431f990ff29140c845",
+      "matches_recovered_konnect_export": true
+    },
+    {
+      "file": "hyperion-F_Paste.gtp",
+      "normalized_sha256": "99dc31ccdd4d873b228ad6cf5dc375d851c2f527c003416d52d74bc4008061d6",
+      "matches_recovered_konnect_export": true
+    },
+    {
+      "file": "hyperion-F_Silkscreen.gto",
+      "normalized_sha256": "376e3194ae2cbac31a8dd5926f55f24b309adfe6732c9def5e3ca5dd79d5a0b6",
+      "matches_recovered_konnect_export": true
+    },
+    {
+      "file": "hyperion-NPTH.drl",
+      "normalized_sha256": "ee0b774f5a5628737dee1b368b5d4a7f17de722af034fda53bbc205ad08efcc5",
+      "matches_recovered_konnect_export": true
+    },
+    {
+      "file": "hyperion-PTH.drl",
+      "normalized_sha256": "1816fbdb53ca938d84f09c9637e0670dfda158b1d98e5f45500d0df060053c79",
+      "matches_recovered_konnect_export": true
+    }
+  ]
+}

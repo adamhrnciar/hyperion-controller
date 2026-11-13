@@ -27,7 +27,7 @@
 "R7","33R","Resistor_SMD:R_0402_1005Metric","1","","C25105","0402WGF330JTCE"
 "R8,R11,R12","1k","Resistor_SMD:R_0402_1005Metric","3","","C11702","0402WGF1001TCE"
 "R9,R10","27R","Resistor_SMD:R_0402_1005Metric","2","","C140174","RC-02K27R0FT"
-"R13,R14","1.1k 1%","Resistor_SMD:R_0603_1608Metric","2","","C22764","0603WAF1101T5E"
+"R13,R14","1.5k 1%","Resistor_SMD:R_0603_1608Metric","2","","C22843","0603WAF1501T5E"
 "TP1","BAT+","TestPoint:TestPoint_Pad_2.5x2.5mm","1","","",""
 "TP2","BAT-","TestPoint:TestPoint_Pad_2.5x2.5mm","1","","",""
 "TP3","USB_VBUS","TestPoint:TestPoint_Pad_1.0x1.0mm","1","","",""
