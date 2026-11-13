@@ -11,8 +11,11 @@ LSM6DSV32X). The bring-up procedure is in [BRINGUP.md](BRINGUP.md).
 - `test/`: host unit tests for the portable code (SBUS and CRSF parsers, arming/failsafe state
   machine, tank mixer). 88 checks pass, built with `-Wall -Wextra -Werror -Wconversion` and
   AddressSanitizer/UBSan.
-- The SBUS PIO program was checked in a cycle-level simulation against 8E2 waveforms with
-  0 and ±3 % baud error: every byte and parity bit decoded correctly.
+- `sim/`: the unchanged firmware runs on a model of the board (PIO, PWM, UART, GPIO, watchdog,
+  ADC, IMU) with simulated SBUS, CRSF and PWM receivers. 77 scenarios follow BRINGUP.md: arming,
+  directions, failsafe timing, wire pulled, watchdog, timer wrap, every test mode. The SBUS PIO
+  program decodes correctly at 0, ±1.5 and ±3 % baud error. See [sim/README.md](sim/README.md)
+  for what the model covers and what it cannot prove.
 
 ## Why the Pico SDK (C)
 
@@ -67,10 +70,11 @@ system compiler.
 
 This produces `firmware/build/hyperion_<mode>.uf2` (and `.elf` for SWD) for each mode.
 
-Host unit tests (no SDK needed):
+Host unit tests (no SDK needed) and the firmware simulator (needs `pioasm` from the build above):
 
 ```
 make -C firmware/test
+make -C firmware/sim
 ```
 
 ### Build options
@@ -169,6 +173,7 @@ src/rc_pwm.c             Servo-pulse backend (CH1 RC_RX, CH2 RC_TX) with GPIO ed
 src/led.h                Status LED patterns
 src/core/                Portable, host-tested: SBUS/CRSF parsers, arming, mixer, 11-bit unpacking
 test/                    Host unit tests for src/core
+sim/                     Board model and scenarios that run the whole firmware on the host
 ```
 
 ## Hardware notes for firmware

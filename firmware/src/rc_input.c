@@ -7,7 +7,9 @@
 #include "pico/time.h"
 
 static rc_frame_t latest;
-static uint32_t latest_us;
+// 64-bit: the 32-bit microsecond timer wraps every 71.6 minutes, and a frame that old
+// must not look fresh again.
+static uint64_t latest_us;
 static bool have_frame;
 static uint32_t frames;
 static uint32_t errors;
@@ -32,7 +34,7 @@ const char *rc_input_protocol_name(void) {
 // Called from interrupt context.
 void rc_input_publish(const rc_frame_t *f) {
     latest = *f;
-    latest_us = time_us_32();
+    latest_us = time_us_64();
     have_frame = true;
     frames++;
 }
@@ -45,10 +47,11 @@ bool rc_input_latest(rc_frame_t *out, uint32_t *age_ms) {
     uint32_t irq = save_and_disable_interrupts();
     bool have = have_frame;
     *out = latest;
-    uint32_t t = latest_us;
+    uint64_t t = latest_us;
     restore_interrupts(irq);
 
-    *age_ms = have ? (time_us_32() - t) / 1000u : UINT32_MAX;
+    uint64_t age = (time_us_64() - t) / 1000u;
+    *age_ms = !have || age > UINT32_MAX ? UINT32_MAX : (uint32_t)age;
     return have;
 }
 

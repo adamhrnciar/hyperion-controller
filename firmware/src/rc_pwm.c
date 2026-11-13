@@ -20,13 +20,14 @@
 
 static const uint pwm_pins[PWM_CHANNELS] = {PIN_RC_RX, PIN_RC_TX};
 static uint32_t rise_us[PWM_CHANNELS];
-static uint32_t good_us[PWM_CHANNELS];
+static uint64_t good_us[PWM_CHANNELS];   // 64-bit: must not wrap while a channel is dead
 static uint16_t width_us[PWM_CHANNELS];
 static bool seen[PWM_CHANNELS];
 static uint32_t errors;
 
 static void rc_pwm_edge(uint gpio, uint32_t events) {
-    uint32_t now = time_us_32();
+    uint64_t now64 = time_us_64();
+    uint32_t now = (uint32_t)now64;
     int ch = gpio == PIN_RC_RX ? 0 : 1;
 
     if (events & GPIO_IRQ_EDGE_RISE) {
@@ -42,7 +43,7 @@ static void rc_pwm_edge(uint gpio, uint32_t events) {
         return;
     }
     width_us[ch] = (uint16_t)w;
-    good_us[ch] = now;
+    good_us[ch] = now64;
     seen[ch] = true;
 
     if (ch != 0) {
@@ -54,7 +55,7 @@ static void rc_pwm_edge(uint gpio, uint32_t events) {
     }
     for (int i = 0; i < PWM_CHANNELS; i++) {
         f.us[i] = width_us[i];
-        if (!seen[i] || now - good_us[i] > PWM_CH_TIMEOUT_US) {
+        if (!seen[i] || now64 - good_us[i] > PWM_CH_TIMEOUT_US) {
             f.failsafe = true;
         }
     }
