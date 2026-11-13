@@ -14,9 +14,11 @@ Technology) for the Czech Combat Robot League (Česká liga bojových robotů, F
 
 ## Status
 
-**Revision v1.2: design complete, not yet built.** Schematic ERC and PCB DRC are clean. All main
-parts were checked against their datasheets. Prototype build and bring-up are next. Treat this
-revision as untested until this section says otherwise.
+**Revision v1.2: unbuilt prototype; ordering is on hold.** The recovered 2026-11-13 Konnect review
+reported no DRC, connectivity or schematic-parity violations and one understood ERC warning on
+the IMU's unused SDx pin. Assembly process, sourcing and the remaining checks in the
+[pre-order review](docs/v1.2-preorder-review-2026-11-13.md) still need resolution. Prototype build
+and physical bring-up have not happened.
 
 ## Features
 
@@ -40,12 +42,19 @@ revision as untested until this section says otherwise.
 
 ## Motor target
 
-- **Drive:** 1–2 N10/N20 gearmotors per side on 2–4S, about 1.5 A per channel. The DRV8231A
-  regulates the current (1.47 A, set by R_IPROPI = 1.5 kΩ with VREF on 3.3 V).
+- **Drive target:** 1–2 N10/N20 gearmotors per side on a 2–4S supply, with about 1.5 A regulated
+  per channel (1.47 A nominal, set by R_IPROPI = 1.5 kΩ with VREF on 3.3 V). Motors sharing a
+  channel share that limit. Choose motors rated for the applied voltage; this is not a claim
+  that every N10/N20 is suitable for direct 4S operation.
+- **Thermal limit:** 1.47 A is a current-regulation setting, not a measured continuous rating.
+  Sustained pushing and stall tests on 2S, 3S and 4S remain open. Do not increase the limit to
+  compensate for a motor that stalls above it.
 - **Compared with the Malenki Nano HV** (1 A continuous / 3 A peak on 3 channels, AFHDS 2A
-  receiver only, no BEC): Hyperion matches it on continuous current and adds a 5 V BEC, an IMU,
-  current and battery telemetry, and input from any receiver. It loses on peak current: Hyperion
-  holds 1.47 A and has no 3 A burst.
+  receiver only, no BEC): Hyperion targets the same small-motor class and adds a 5 V BEC, an IMU,
+  current/battery sensing and external receiver inputs. Its continuous rating still needs
+  measurement, and its nominal regulated limit is 1.47 A rather than a specified 3 A burst.
+  Firmware currently supports SBUS, CRSF and two-channel PWM; transmitter telemetry, iBUS and
+  PPM are planned.
 - **Not for beetleweight drive.** Beetleweight drive motors need 5–12 A per channel. Hyperion can
   still be the brain of such a robot, driving external ESCs from its PWM pads.
 
@@ -66,10 +75,14 @@ images/     Renders and logo
 - **Assembly:** `fab/hyperion-v1.2-bom.csv` lists LCSC and manufacturer part numbers.
   `fab/hyperion-v1.2-pos.csv` has the pick-and-place data. C3, the 100 µF bulk capacitor, is not
   placed; it is hand-wired to its pads. The TPx test pads are bare pads with no part.
-- **PCBWay:** `fab/pcbway/` holds a ready upload package: Gerbers, a BOM and centroid file with only
+- **PCBWay:** `fab/pcbway/` holds the candidate package: Gerbers, a BOM and centroid file with only
   the assembled parts, and `ASSEMBLY_NOTES.md` (board specs, DNP list, polarity notes, sourcing).
+  Resolve the [pre-order review](docs/v1.2-preorder-review-2026-11-13.md) before releasing it.
 - **Opening the design:** requires KiCad 10. The custom symbols and footprints are in
   `hardware/hyperion.kicad_sym` and `hardware/hyperion.pretty`.
+- **Source of truth:** develop in [hyperion-controller](https://github.com/adamhrnciar/hyperion-controller).
+  The `hyperion-controller/` subtree in `antweight-analysis` is a mirror. Its older
+  `antweight/pcb/hyperion/` directory is historical; do not generate new manufacturing files from it.
 
 ## Firmware
 

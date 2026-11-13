@@ -1,0 +1,165 @@
+{
+  "date": "2026-11-13",
+  "toolchain": {
+    "pico_sdk": "2.3.1",
+    "arm_gcc": "16.2.0",
+    "cmake": "4.4.4",
+    "ninja": "1.13.2.git.kitware.jobserver-pipe-1"
+  },
+  "host_unit_tests": {
+    "checks": 88,
+    "failures": 0,
+    "sanitizers": [
+      "AddressSanitizer",
+      "UBSan"
+    ]
+  },
+  "simulation": {
+    "scenarios": 77,
+    "failures": 0,
+    "variants": [
+      {
+        "variant": "failsafe_sbus",
+        "scenarios": 14,
+        "failed": 0
+      },
+      {
+        "variant": "failsafe_crsf",
+        "scenarios": 12,
+        "failed": 0
+      },
+      {
+        "variant": "failsafe_pwm",
+        "scenarios": 13,
+        "failed": 0
+      },
+      {
+        "variant": "drive_sbus",
+        "scenarios": 13,
+        "failed": 0
+      },
+      {
+        "variant": "armswitch_sbus",
+        "scenarios": 15,
+        "failed": 0
+      },
+      {
+        "variant": "rc_sbus",
+        "scenarios": 1,
+        "failed": 0
+      },
+      {
+        "variant": "rc_crsf",
+        "scenarios": 1,
+        "failed": 0
+      },
+      {
+        "variant": "rc_pwm",
+        "scenarios": 1,
+        "failed": 0
+      },
+      {
+        "variant": "blink",
+        "scenarios": 1,
+        "failed": 0
+      },
+      {
+        "variant": "adc",
+        "scenarios": 1,
+        "failed": 0
+      },
+      {
+        "variant": "imu",
+        "scenarios": 3,
+        "failed": 0
+      },
+      {
+        "variant": "motor",
+        "scenarios": 1,
+        "failed": 0
+      },
+      {
+        "variant": "thermal",
+        "scenarios": 1,
+        "failed": 0
+      }
+    ]
+  },
+  "original_code_regressions": [
+    {
+      "source": "rc_input.c at 2923c25",
+      "scenario": "timer_wrap_after_link_loss",
+      "expected_exit": 1,
+      "actual_exit": 1
+    },
+    {
+      "source": "rc_pwm.c at 2923c25",
+      "scenario": "pwm_timer_wrap_dead_channel",
+      "expected_exit": 1,
+      "actual_exit": 1
+    }
+  ],
+  "physical_tests": "Not performed; no board flashed or powered.",
+  "artifacts": [
+    {
+      "file": "firmware/build/review-sbus/hyperion_adc.uf2",
+      "size": 61952,
+      "modified_utc": "2026-11-13T10:04:49.462109+00:00",
+      "sha256": "fdc23377429e0201c58ac9ac7060fb41c3ef62493122ae88afb70c110611fc58"
+    },
+    {
+      "file": "firmware/build/review-sbus/hyperion_blink.uf2",
+      "size": 61440,
+      "modified_utc": "2026-11-13T10:04:49.433108+00:00",
+      "sha256": "475926246e023af1cb5d13b76c7d78bec428649380b4a3df2ea164634fa7b4bd"
+    },
+    {
+      "file": "firmware/build/review-sbus/hyperion_drive.uf2",
+      "size": 67584,
+      "modified_utc": "2026-11-13T10:04:49.411108+00:00",
+      "sha256": "23983c27e5b159ffc9959b07adf50b073329fde12b568414adc39eee730141df"
+    },
+    {
+      "file": "firmware/build/review-sbus/hyperion_failsafe.uf2",
+      "size": 68096,
+      "modified_utc": "2026-11-13T10:04:49.542111+00:00",
+      "sha256": "595f53efe87dfa6c4904dc5e5444d305cf36c58dd61d14e283305ef0b8b05125"
+    },
+    {
+      "file": "firmware/build/review-sbus/hyperion_imu.uf2",
+      "size": 65536,
+      "modified_utc": "2026-11-13T10:04:49.503110+00:00",
+      "sha256": "c91322ba6de2b5176808020109e9fd6987de1b057eeb3e5488eddf9a1125bbe7"
+    },
+    {
+      "file": "firmware/build/review-sbus/hyperion_motor.uf2",
+      "size": 62976,
+      "modified_utc": "2026-11-13T10:04:49.524111+00:00",
+      "sha256": "0ff401d7a06b4ad1e67a055fd1cce1251b78273d9fe52c19c45f03d1343237d0"
+    },
+    {
+      "file": "firmware/build/review-sbus/hyperion_rc.uf2",
+      "size": 64000,
+      "modified_utc": "2026-11-13T10:04:49.480110+00:00",
+      "sha256": "f612572cf967afdec8c2547de6a78445fe5f804fc7355ed92d0828095f290db7"
+    },
+    {
+      "file": "firmware/build/review-sbus/hyperion_thermal.uf2",
+      "size": 66560,
+      "modified_utc": "2026-11-13T10:04:49.541111+00:00",
+      "sha256": "78a0cd1148e443c6a702b8da3226dfd2450a1d2289d5d31e126879745f8294cf"
+    },
+    {
+      "file": "firmware/build/review-crsf/hyperion_drive.uf2",
+      "size": 67072,
+      "modified_utc": "2026-11-13T10:06:53.941628+00:00",
+      "sha256": "8e525c73b9f541bdcf291a1c8a11877aa711eefb552c2b0b7d0ca736c12dd09e"
+    },
+    {
+      "file": "firmware/build/review-pwm/hyperion_drive.uf2",
+      "size": 67072,
+      "modified_utc": "2026-11-13T10:07:00.926825+00:00",
+      "sha256": "6cb5f37c4a57e2486529dd04268bc17a149975bd0da693ea8b3c5f050f16c208"
+    }
+  ]
+}

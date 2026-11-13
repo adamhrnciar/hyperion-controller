@@ -1,0 +1,34 @@
+{
+  "coordinates": {
+    "kicad_version": "10.0.8",
+    "reason": "KiCad 10.0.8 carries the fix for the ERC JSON coordinate scaling defect (kicad#25582, fixed in 10.0.7), so its coordinates are passed through unchanged.",
+    "status": "verbatim"
+  },
+  "errors": 0,
+  "total": 1,
+  "violations": [
+    {
+      "description": "Pins of type Bidirectional and Power output are connected: Symbol U6 Pin 2 [SDX, Bidirectional, Line]",
+      "items": [
+        {
+          "description": "Symbol U6 Pin 2 [SDX, Bidirectional, Line]",
+          "uuid": "bb012bc9-e5fe-4768-bab7-e7cb67e2aa5c",
+          "x": 86.36,
+          "y": 76.2
+        },
+        {
+          "description": "Symbol #FLG02 Pin 1 [Power output, Line]",
+          "uuid": "e6e01f00-a65a-4bd1-8d21-b1b1545e6238",
+          "x": 248.92,
+          "y": 111.76
+        }
+      ],
+      "rule": "pin_to_pin",
+      "severity": "warning",
+      "sheet": "/IMU_IO/",
+      "x": 86.36,
+      "y": 76.2
+    }
+  ],
+  "warnings": 1
+}

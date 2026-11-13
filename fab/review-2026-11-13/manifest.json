@@ -1,0 +1,78 @@
+{
+  "recorded_at_utc": "2026-11-13T10:16:32.886148+00:00",
+  "evidence_provenance": "Checks and design exports recovered from prior Konnect calls on 2026-11-13; not rerun through Codex. Source SHA-256 values recorded on resumption, not at original tool invocation. Board SHA-1 independently matches the value recorded before prior checks.",
+  "prior_and_current_board_sha1": "48ac16a907c3ef2d417d453b7250a91dd13d4f6c",
+  "prior_and_current_archive_sha1": "76e7d57d2d1dc1aca6a4ccd9c57061ffa777b85a",
+  "sources": [
+    {
+      "file": "hardware/fp-lib-table",
+      "sha256": "4f21a6ffd8bf6d1a640668276491f3ebde179ab2ae92f731fba51528ac636ee9"
+    },
+    {
+      "file": "hardware/hyperion.kicad_pcb",
+      "sha256": "6b8441efc9d1db81a1e8aa1fcde9b72a628b7a9d47d4c8caa1de0659cca5bb43"
+    },
+    {
+      "file": "hardware/hyperion.kicad_pro",
+      "sha256": "04a305c6345666777a9c11bfe12a44097cd4df4e9d78b05fd44dbf9d74db06f2"
+    },
+    {
+      "file": "hardware/hyperion.kicad_sch",
+      "sha256": "c7c2f9cab45428bdbb94b8bcd5c6ff79474f2ebdc038f7f17c27f490095ca1d9"
+    },
+    {
+      "file": "hardware/hyperion.kicad_sym",
+      "sha256": "1a78700886b8586a2d0b79f385048f109d8b872583959ae54760f24f2cf1b748"
+    },
+    {
+      "file": "hardware/hyperion.pretty/AON7403_PowerPAK1212-8_GSD.kicad_mod",
+      "sha256": "f4e46210de8f8a7d72b0ff38f3cfa277948fcde235cc45051901a77b3bb49948"
+    },
+    {
+      "file": "hardware/hyperion.pretty/LGA-14_3x2.5mm_P0.5mm_CircuitNinja.kicad_mod",
+      "sha256": "434e1160b8719dc81681d5d4c4431e76005f2967db44e830d93334c9c806ae70"
+    },
+    {
+      "file": "hardware/hyperion.pretty/RP2354A_QFN-60_CircuitNinja.kicad_mod",
+      "sha256": "62dcd9866d000b5ec5f315cca99227c3e9546077922eab38dcad1341fd247394"
+    },
+    {
+      "file": "hardware/io.kicad_sch",
+      "sha256": "a69f1c9f8a97aca06145238cfba6880e52d3c5ad28af43539a7b0963256e6b4f"
+    },
+    {
+      "file": "hardware/mcu.kicad_sch",
+      "sha256": "725075784a4fa6d8f7b7778a68e73a1ba025272dfa0507bbebf380797b58f771"
+    },
+    {
+      "file": "hardware/motors.kicad_sch",
+      "sha256": "a874a77c23e15eee3c97a4a30d811a2920bd143ec07ea87a121ba2f073f8e09d"
+    },
+    {
+      "file": "hardware/power.kicad_sch",
+      "sha256": "79ce13356d8fe236bfdbb5f01b106e14c04e66f83120d6f458ad4f11db4ab8c4"
+    },
+    {
+      "file": "hardware/sym-lib-table",
+      "sha256": "24b7cede40ce0291e17bd907366b91b02d686cdb3b74b24ea8405b09d6b428e1"
+    }
+  ],
+  "manufacturing_inputs": [
+    {
+      "file": "fab/hyperion-v1.2-gerbers.zip",
+      "sha256": "7f5906aab5656a5d7bd0371ebcd71a62f51447181026b5c61982bf28c7032797"
+    },
+    {
+      "file": "fab/pcbway/hyperion-v1.2-gerbers.zip",
+      "sha256": "7f5906aab5656a5d7bd0371ebcd71a62f51447181026b5c61982bf28c7032797"
+    },
+    {
+      "file": "fab/pcbway/hyperion-v1.2-pcbway-bom.csv",
+      "sha256": "60ce377b4d7fefda95914f07727996b9789b3f26e302f41493df2a77728da206"
+    },
+    {
+      "file": "fab/pcbway/hyperion-v1.2-pcbway-centroid.csv",
+      "sha256": "6ed69cbbb32ea7fe41ed299d8a77ff2fbb39454264e655a6acf4c3993843fa7a"
+    }
+  ]
+}

@@ -1,0 +1,2524 @@
+{
+  "U1": {
+    "source": "Recovered Konnect get_component_pads; saved_file board",
+    "pads": [
+      {
+        "number": "",
+        "x": 125.55000000000001,
+        "y": 110.15,
+        "size": {
+          "x": 1.32,
+          "y": 1.32
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Paste"
+        ],
+        "net": ""
+      },
+      {
+        "number": "",
+        "x": 125.55000000000001,
+        "y": 111.85,
+        "size": {
+          "x": 1.32,
+          "y": 1.32
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Paste"
+        ],
+        "net": ""
+      },
+      {
+        "number": "",
+        "x": 127.25,
+        "y": 110.15,
+        "size": {
+          "x": 1.32,
+          "y": 1.32
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Paste"
+        ],
+        "net": ""
+      },
+      {
+        "number": "",
+        "x": 127.25,
+        "y": 111.85,
+        "size": {
+          "x": 1.32,
+          "y": 1.32
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Paste"
+        ],
+        "net": ""
+      },
+      {
+        "number": "1",
+        "x": 122.95,
+        "y": 108.2,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "+3V3"
+      },
+      {
+        "number": "2",
+        "x": 122.95,
+        "y": 108.6,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "CRSF_TX"
+      },
+      {
+        "number": "3",
+        "x": 122.95,
+        "y": 109,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "CRSF_RX"
+      },
+      {
+        "number": "4",
+        "x": 122.95,
+        "y": 109.4,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "MA_IN1"
+      },
+      {
+        "number": "5",
+        "x": 122.95,
+        "y": 109.8,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-GPIO3-Pad5)"
+      },
+      {
+        "number": "6",
+        "x": 122.95,
+        "y": 110.2,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/+1V1"
+      },
+      {
+        "number": "7",
+        "x": 122.95,
+        "y": 110.6,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-GPIO4-Pad7)"
+      },
+      {
+        "number": "8",
+        "x": 122.95,
+        "y": 111,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-GPIO5-Pad8)"
+      },
+      {
+        "number": "9",
+        "x": 122.95,
+        "y": 111.4,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-GPIO6-Pad9)"
+      },
+      {
+        "number": "10",
+        "x": 122.95,
+        "y": 111.8,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "MA_IN2"
+      },
+      {
+        "number": "11",
+        "x": 122.95,
+        "y": 112.2,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "+3V3"
+      },
+      {
+        "number": "12",
+        "x": 122.95,
+        "y": 112.6,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "MB_IN1"
+      },
+      {
+        "number": "13",
+        "x": 122.95,
+        "y": 113,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "MB_IN2"
+      },
+      {
+        "number": "14",
+        "x": 122.95,
+        "y": 113.4,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "PWM1"
+      },
+      {
+        "number": "15",
+        "x": 122.95,
+        "y": 113.8,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "PWM2"
+      },
+      {
+        "number": "16",
+        "x": 123.60000000000001,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "PWM3"
+      },
+      {
+        "number": "17",
+        "x": 124,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "PWM4"
+      },
+      {
+        "number": "18",
+        "x": 124.4,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-GPIO14-Pad18)"
+      },
+      {
+        "number": "19",
+        "x": 124.80000000000001,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-GPIO15-Pad19)"
+      },
+      {
+        "number": "20",
+        "x": 125.2,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "+3V3"
+      },
+      {
+        "number": "21",
+        "x": 125.60000000000001,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/XIN"
+      },
+      {
+        "number": "22",
+        "x": 126,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/XOUT"
+      },
+      {
+        "number": "23",
+        "x": 126.4,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/+1V1"
+      },
+      {
+        "number": "24",
+        "x": 126.80000000000001,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/SWCLK"
+      },
+      {
+        "number": "25",
+        "x": 127.2,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/SWDIO"
+      },
+      {
+        "number": "26",
+        "x": 127.60000000000001,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/RUN"
+      },
+      {
+        "number": "27",
+        "x": 128,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "IMU_MISO"
+      },
+      {
+        "number": "28",
+        "x": 128.4,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "IMU_CS"
+      },
+      {
+        "number": "29",
+        "x": 128.8,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "IMU_SCK"
+      },
+      {
+        "number": "30",
+        "x": 129.20000000000002,
+        "y": 114.45,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "+3V3"
+      },
+      {
+        "number": "31",
+        "x": 129.85,
+        "y": 113.8,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "IMU_MOSI"
+      },
+      {
+        "number": "32",
+        "x": 129.85,
+        "y": 113.4,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "IMU_INT1"
+      },
+      {
+        "number": "33",
+        "x": 129.85,
+        "y": 113,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-GPIO21-Pad33)"
+      },
+      {
+        "number": "34",
+        "x": 129.85,
+        "y": 112.6,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-GPIO22-Pad34)"
+      },
+      {
+        "number": "35",
+        "x": 129.85,
+        "y": 112.2,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-GPIO23-Pad35)"
+      },
+      {
+        "number": "36",
+        "x": 129.85,
+        "y": 111.8,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-GPIO24-Pad36)"
+      },
+      {
+        "number": "37",
+        "x": 129.85,
+        "y": 111.4,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/STAT_LED"
+      },
+      {
+        "number": "38",
+        "x": 129.85,
+        "y": 111,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "+3V3"
+      },
+      {
+        "number": "39",
+        "x": 129.85,
+        "y": 110.6,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/+1V1"
+      },
+      {
+        "number": "40",
+        "x": 129.85,
+        "y": 110.2,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "MA_IPROPI"
+      },
+      {
+        "number": "41",
+        "x": 129.85,
+        "y": 109.8,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "MB_IPROPI"
+      },
+      {
+        "number": "42",
+        "x": 129.85,
+        "y": 109.4,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "VBAT_SENSE"
+      },
+      {
+        "number": "43",
+        "x": 129.85,
+        "y": 109,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-GPIO29{slash}ADC3-Pad43)"
+      },
+      {
+        "number": "44",
+        "x": 129.85,
+        "y": 108.6,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "+3V3"
+      },
+      {
+        "number": "45",
+        "x": 129.85,
+        "y": 108.2,
+        "size": {
+          "x": 0.8,
+          "y": 0.19
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "+3V3"
+      },
+      {
+        "number": "46",
+        "x": 129.20000000000002,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/VREG_AVDD"
+      },
+      {
+        "number": "47",
+        "x": 128.8,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "48",
+        "x": 128.4,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/VREG_LX"
+      },
+      {
+        "number": "49",
+        "x": 128,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "+3V3"
+      },
+      {
+        "number": "50",
+        "x": 127.60000000000001,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/+1V1"
+      },
+      {
+        "number": "51",
+        "x": 127.2,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/USB_DM_MCU"
+      },
+      {
+        "number": "52",
+        "x": 126.80000000000001,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/USB_DP_MCU"
+      },
+      {
+        "number": "53",
+        "x": 126.4,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "+3V3"
+      },
+      {
+        "number": "54",
+        "x": 126,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "+3V3"
+      },
+      {
+        "number": "55",
+        "x": 125.60000000000001,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-QSPI_SD3-Pad55)"
+      },
+      {
+        "number": "56",
+        "x": 125.2,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-QSPI_SCLK-Pad56)"
+      },
+      {
+        "number": "57",
+        "x": 124.80000000000001,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-QSPI_SD0-Pad57)"
+      },
+      {
+        "number": "58",
+        "x": 124.4,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-QSPI_SD2-Pad58)"
+      },
+      {
+        "number": "59",
+        "x": 124,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U1-QSPI_SD1-Pad59)"
+      },
+      {
+        "number": "60",
+        "x": 123.60000000000001,
+        "y": 107.55,
+        "size": {
+          "x": 0.19,
+          "y": 0.8
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "/MCU/QSPI_SS"
+      },
+      {
+        "number": "61",
+        "x": 124.95,
+        "y": 109.55,
+        "size": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "rotation_deg": 0,
+        "pad_type": "thru_hole",
+        "drill": {
+          "end_layer": null,
+          "shape": "circle",
+          "size": {
+            "x": 0.3,
+            "y": 0.3
+          },
+          "start_layer": null
+        },
+        "layers": [
+          "*.Cu"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "61",
+        "x": 124.95,
+        "y": 111,
+        "size": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "rotation_deg": 0,
+        "pad_type": "thru_hole",
+        "drill": {
+          "end_layer": null,
+          "shape": "circle",
+          "size": {
+            "x": 0.3,
+            "y": 0.3
+          },
+          "start_layer": null
+        },
+        "layers": [
+          "*.Cu"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "61",
+        "x": 124.95,
+        "y": 112.45,
+        "size": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "rotation_deg": 0,
+        "pad_type": "thru_hole",
+        "drill": {
+          "end_layer": null,
+          "shape": "circle",
+          "size": {
+            "x": 0.3,
+            "y": 0.3
+          },
+          "start_layer": null
+        },
+        "layers": [
+          "*.Cu"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "61",
+        "x": 126.4,
+        "y": 109.55,
+        "size": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "rotation_deg": 0,
+        "pad_type": "thru_hole",
+        "drill": {
+          "end_layer": null,
+          "shape": "circle",
+          "size": {
+            "x": 0.3,
+            "y": 0.3
+          },
+          "start_layer": null
+        },
+        "layers": [
+          "*.Cu"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "61",
+        "x": 126.4,
+        "y": 111,
+        "size": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "rotation_deg": 0,
+        "pad_type": "thru_hole",
+        "drill": {
+          "end_layer": null,
+          "shape": "circle",
+          "size": {
+            "x": 0.3,
+            "y": 0.3
+          },
+          "start_layer": null
+        },
+        "layers": [
+          "*.Cu"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "61",
+        "x": 126.4,
+        "y": 111,
+        "size": {
+          "x": 3.4,
+          "y": 3.4
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "61",
+        "x": 126.4,
+        "y": 111,
+        "size": {
+          "x": 3.4,
+          "y": 3.4
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "B.Cu"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "61",
+        "x": 126.4,
+        "y": 112.45,
+        "size": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "rotation_deg": 0,
+        "pad_type": "thru_hole",
+        "drill": {
+          "end_layer": null,
+          "shape": "circle",
+          "size": {
+            "x": 0.3,
+            "y": 0.3
+          },
+          "start_layer": null
+        },
+        "layers": [
+          "*.Cu"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "61",
+        "x": 127.85000000000001,
+        "y": 109.55,
+        "size": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "rotation_deg": 0,
+        "pad_type": "thru_hole",
+        "drill": {
+          "end_layer": null,
+          "shape": "circle",
+          "size": {
+            "x": 0.3,
+            "y": 0.3
+          },
+          "start_layer": null
+        },
+        "layers": [
+          "*.Cu"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "61",
+        "x": 127.85000000000001,
+        "y": 111,
+        "size": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "rotation_deg": 0,
+        "pad_type": "thru_hole",
+        "drill": {
+          "end_layer": null,
+          "shape": "circle",
+          "size": {
+            "x": 0.3,
+            "y": 0.3
+          },
+          "start_layer": null
+        },
+        "layers": [
+          "*.Cu"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "61",
+        "x": 127.85000000000001,
+        "y": 112.45,
+        "size": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "rotation_deg": 0,
+        "pad_type": "thru_hole",
+        "drill": {
+          "end_layer": null,
+          "shape": "circle",
+          "size": {
+            "x": 0.3,
+            "y": 0.3
+          },
+          "start_layer": null
+        },
+        "layers": [
+          "*.Cu"
+        ],
+        "net": "GND"
+      }
+    ],
+    "catalogue_comparison": {
+      "source": "Recovered pcbparts EasyEDA footprint; not manufacturer land-pattern approval",
+      "package": "QFN-60(7x7)",
+      "footprint": {
+        "name": "QFN-60_L7.0-W7.0-P0.40-TL-EP3.4",
+        "pad_count": 61,
+        "numbered_pads": 61,
+        "pitch": 0.4,
+        "pad_sizes": [
+          {
+            "size": "0.2x0.875 mm rect",
+            "count": 60
+          },
+          {
+            "size": "3.4x3.4 mm rect",
+            "count": 1
+          }
+        ],
+        "source_link": "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf",
+        "pads": [
+          {
+            "number": "1",
+            "x": -3.575,
+            "y": -2.8,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "2",
+            "x": -3.575,
+            "y": -2.4,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "3",
+            "x": -3.575,
+            "y": -2,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "4",
+            "x": -3.575,
+            "y": -1.6,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "5",
+            "x": -3.575,
+            "y": -1.2,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "6",
+            "x": -3.575,
+            "y": -0.8,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "7",
+            "x": -3.575,
+            "y": -0.4,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "8",
+            "x": -3.575,
+            "y": 0,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "9",
+            "x": -3.575,
+            "y": 0.4,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "10",
+            "x": -3.575,
+            "y": 0.8,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "11",
+            "x": -3.575,
+            "y": 1.2,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "12",
+            "x": -3.575,
+            "y": 1.6,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "13",
+            "x": -3.575,
+            "y": 2,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "14",
+            "x": -3.575,
+            "y": 2.4,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "15",
+            "x": -3.575,
+            "y": 2.8,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "16",
+            "x": -2.8,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "17",
+            "x": -2.4,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "18",
+            "x": -2,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "19",
+            "x": -1.6,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "20",
+            "x": -1.2,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "21",
+            "x": -0.8,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "22",
+            "x": -0.4,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "23",
+            "x": 0,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "24",
+            "x": 0.4,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "25",
+            "x": 0.8,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "26",
+            "x": 1.2,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "27",
+            "x": 1.6,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "28",
+            "x": 2,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "29",
+            "x": 2.4,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "30",
+            "x": 2.8,
+            "y": 3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "31",
+            "x": 3.575,
+            "y": 2.8,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "32",
+            "x": 3.575,
+            "y": 2.4,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "33",
+            "x": 3.575,
+            "y": 2,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "34",
+            "x": 3.575,
+            "y": 1.6,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "35",
+            "x": 3.575,
+            "y": 1.2,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "36",
+            "x": 3.575,
+            "y": 0.8,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "37",
+            "x": 3.575,
+            "y": 0.4,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "38",
+            "x": 3.575,
+            "y": 0,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "39",
+            "x": 3.575,
+            "y": -0.4,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "40",
+            "x": 3.575,
+            "y": -0.8,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "41",
+            "x": 3.575,
+            "y": -1.2,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "42",
+            "x": 3.575,
+            "y": -1.6,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "43",
+            "x": 3.575,
+            "y": -2,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "44",
+            "x": 3.575,
+            "y": -2.4,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "45",
+            "x": 3.575,
+            "y": -2.8,
+            "shape": "rect",
+            "size": [
+              0.875,
+              0.2
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "46",
+            "x": 2.8,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "47",
+            "x": 2.4,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "48",
+            "x": 2,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "49",
+            "x": 1.6,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "50",
+            "x": 1.2,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "51",
+            "x": 0.8,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "52",
+            "x": 0.4,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "53",
+            "x": 0,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "54",
+            "x": -0.4,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "55",
+            "x": -0.8,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "56",
+            "x": -1.2,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "57",
+            "x": -1.6,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "58",
+            "x": -2,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "59",
+            "x": -2.4,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "60",
+            "x": -2.8,
+            "y": -3.575,
+            "shape": "rect",
+            "size": [
+              0.2,
+              0.875
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "61",
+            "x": 0,
+            "y": 0,
+            "shape": "rect",
+            "size": [
+              3.4,
+              3.4
+            ],
+            "layer": "top"
+          }
+        ]
+      }
+    }
+  },
+  "U6": {
+    "source": "Recovered Konnect get_component_pads; saved_file board",
+    "pads": [
+      {
+        "number": "1",
+        "x": 130.6875,
+        "y": 120.7,
+        "size": {
+          "x": 0.625,
+          "y": 0.29
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "IMU_MISO"
+      },
+      {
+        "number": "2",
+        "x": 130.6875,
+        "y": 121.2,
+        "size": {
+          "x": 0.625,
+          "y": 0.29
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "x": 130.6875,
+        "y": 121.7,
+        "size": {
+          "x": 0.625,
+          "y": 0.29
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "4",
+        "x": 130.6875,
+        "y": 122.2,
+        "size": {
+          "x": 0.625,
+          "y": 0.29
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "IMU_INT1"
+      },
+      {
+        "number": "5",
+        "x": 131.35,
+        "y": 122.3625,
+        "size": {
+          "x": 0.29,
+          "y": 0.625
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "+3V3"
+      },
+      {
+        "number": "6",
+        "x": 131.85,
+        "y": 122.3625,
+        "size": {
+          "x": 0.29,
+          "y": 0.625
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "7",
+        "x": 132.35,
+        "y": 122.3625,
+        "size": {
+          "x": 0.29,
+          "y": 0.625
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "8",
+        "x": 133.0125,
+        "y": 122.2,
+        "size": {
+          "x": 0.625,
+          "y": 0.29
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "+3V3"
+      },
+      {
+        "number": "9",
+        "x": 133.0125,
+        "y": 121.7,
+        "size": {
+          "x": 0.625,
+          "y": 0.29
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U6-INT2-Pad9)"
+      },
+      {
+        "number": "10",
+        "x": 133.0125,
+        "y": 121.2,
+        "size": {
+          "x": 0.625,
+          "y": 0.29
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U6-NC-Pad10)"
+      },
+      {
+        "number": "11",
+        "x": 133.0125,
+        "y": 120.7,
+        "size": {
+          "x": 0.625,
+          "y": 0.29
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "unconnected-(U6-NC-Pad11)"
+      },
+      {
+        "number": "12",
+        "x": 132.35,
+        "y": 120.53750000000001,
+        "size": {
+          "x": 0.29,
+          "y": 0.625
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "IMU_CS"
+      },
+      {
+        "number": "13",
+        "x": 131.85,
+        "y": 120.53750000000001,
+        "size": {
+          "x": 0.29,
+          "y": 0.625
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "IMU_SCK"
+      },
+      {
+        "number": "14",
+        "x": 131.35,
+        "y": 120.53750000000001,
+        "size": {
+          "x": 0.29,
+          "y": 0.625
+        },
+        "rotation_deg": 0,
+        "pad_type": "smd",
+        "drill": null,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "IMU_MOSI"
+      }
+    ],
+    "catalogue_comparison": {
+      "source": "Recovered pcbparts EasyEDA footprint; not manufacturer land-pattern approval",
+      "package": "LGA-14(2.5x3)",
+      "footprint": {
+        "name": "LGA-14L_L3.0-W2.5-P0.50-TL",
+        "pad_count": 14,
+        "numbered_pads": 14,
+        "pitch": 0.5,
+        "pad_sizes": [
+          {
+            "size": "0.28x0.5 mm rect",
+            "count": 14
+          }
+        ],
+        "source_link": "https://cn.bing.com/search?q=datasheet\uff1a IIS3DWBTR",
+        "pads": [
+          {
+            "number": "1",
+            "x": -1.175,
+            "y": -0.75,
+            "shape": "rect",
+            "size": [
+              0.5,
+              0.28
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "2",
+            "x": -1.175,
+            "y": -0.25,
+            "shape": "rect",
+            "size": [
+              0.5,
+              0.28
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "3",
+            "x": -1.175,
+            "y": 0.25,
+            "shape": "rect",
+            "size": [
+              0.5,
+              0.28
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "4",
+            "x": -1.175,
+            "y": 0.75,
+            "shape": "rect",
+            "size": [
+              0.5,
+              0.28
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "5",
+            "x": -0.5,
+            "y": 0.925,
+            "shape": "rect",
+            "size": [
+              0.28,
+              0.5
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "6",
+            "x": 0,
+            "y": 0.925,
+            "shape": "rect",
+            "size": [
+              0.28,
+              0.5
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "7",
+            "x": 0.5,
+            "y": 0.925,
+            "shape": "rect",
+            "size": [
+              0.28,
+              0.5
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "8",
+            "x": 1.175,
+            "y": 0.75,
+            "shape": "rect",
+            "size": [
+              0.5,
+              0.28
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "9",
+            "x": 1.175,
+            "y": 0.25,
+            "shape": "rect",
+            "size": [
+              0.5,
+              0.28
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "10",
+            "x": 1.175,
+            "y": -0.25,
+            "shape": "rect",
+            "size": [
+              0.5,
+              0.28
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "11",
+            "x": 1.175,
+            "y": -0.75,
+            "shape": "rect",
+            "size": [
+              0.5,
+              0.28
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "12",
+            "x": 0.5,
+            "y": -0.925,
+            "shape": "rect",
+            "size": [
+              0.28,
+              0.5
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "13",
+            "x": 0,
+            "y": -0.925,
+            "shape": "rect",
+            "size": [
+              0.28,
+              0.5
+            ],
+            "layer": "top"
+          },
+          {
+            "number": "14",
+            "x": -0.5,
+            "y": -0.925,
+            "shape": "rect",
+            "size": [
+              0.28,
+              0.5
+            ],
+            "layer": "top"
+          }
+        ]
+      }
+    }
+  }
+}
